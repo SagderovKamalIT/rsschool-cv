@@ -2,19 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamal Sagderov CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <header>
-      <h1>Kamal Sagderov</h1>
-      <p>Frontend Developer</p>
-    </header>
+    <div class="container">
+      <header>
+        <img src="assets/images/photo.jpg" alt="Kamal Sagderov" class="profile-photo">
+        <h1>Kamal Sagderov</h1>
+        <p class="subtitle">Frontend Developer</p>
+      </header>
 
-    <main>
-      <section>
-        <h2>Contact Information</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section id="contact">
+          <h2>Contact Information</h2>
         <ul>
           <li>Location: Moscow, Russia</li>
           <li>Email: sagderovkamal.it@gmail.com</li>
@@ -29,7 +41,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="about">
         <h2>About Me</h2>
         <p>
           I am a Frontend Developer (beginner) focused on modern web
@@ -43,7 +55,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="skills">
         <h2>Skills</h2>
         <ul>
           <li>HTML5, CSS3</li>
@@ -64,7 +76,7 @@ function multiply(a, b) {
         </code></pre>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
         <ul>
           <li><a href="https://sagderovkamalit.github.io/school-21/">School 21 × RUDN</a></li>
@@ -74,7 +86,7 @@ function multiply(a, b) {
         </ul>
       </section>
 
-      <section>
+      <section id="education">
         <h2>Education</h2>
         <p>RUDN University (ongoing)</p>
       </section>
@@ -84,5 +96,20 @@ function multiply(a, b) {
         <p>A2 – Pre-Intermediate</p>
       </section>
     </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="https://github.com/SagderovKamalIT" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <span class="footer-separator">|</span>
+        <span>&copy; 2026</span>
+        <span class="footer-separator">|</span>
+        <a href="https://rs.school/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logo/rs-school-logo.svg" alt="RS School Logo" class="rs-logo">
+        </a>
+      </div>
+    </footer>
+    </div>
   </body>
 </html>
