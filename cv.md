@@ -16,3 +16,20 @@ I have strong knowledge of HTML and CSS and continue improving my JavaScript and
 My goal is to become a professional software engineer and work in a strong development team.
 
 ---
+## 🛠️ Skills
+
+- HTML5, CSS3 (Flexbox, Grid)
+- JavaScript (Basics, DOM)
+- React (basic level)
+- TypeScript (basic level)
+- Git, GitHub
+- Docker (basic usage)
+
+---
+
+## 💻 Code Example
+
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
