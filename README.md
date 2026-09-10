@@ -1,2 +1,2 @@
 ## My CV
-### link: https://SagderovKamalIT.github.io/rsschool-cv/cv
+### link to open: https://SagderovKamalIT.github.io/rsschool-cv/cv
