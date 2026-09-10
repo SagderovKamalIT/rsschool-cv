@@ -127,3 +127,11 @@ export const useTaskManager = (initialTasks: Task[]) => {
   return { tasks, updateTaskStatus };
 };
 ```
+---
+
+## 🎯 Professional Goals
+
+* Deepen understanding of advanced React state-management and architectural patterns.
+* Elevate TypeScript implementation to advanced strict guidelines.
+* Build fully secure and heavily optimized full-stack applications.
+* Actively collaborate in open-source tasks and tech hackathons.
