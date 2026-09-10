@@ -18,8 +18,8 @@ Developing in the **React + TypeScript** direction, paying close attention to co
 
 - **GitHub:** [SagderovKamalIT](https://github.com)
 - **Telegram:** [@kamal_sagderov](https://t.me)
-- **Discoed:** [@kamal_sagderov]
-- **Email:** sagderovkamal.it@gmail.com
+- **Discoed:** [@kamal_sagderov](https://discord.com)
+- **Email:** [sagderovkamal.it@gmail.com](mailto:sagderovkamal.it@gmail.com)
 - **Location:** Moscow, Russia
 
 ---
