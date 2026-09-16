@@ -10,12 +10,12 @@
 .aside__section {
   padding: 154px 37px 42px 38px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 32px;
 }
 
 .aside__header {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   color: #000;
 }
@@ -31,7 +31,6 @@
   border-bottom: 1px solid #000000;
   margin-top: 16px;
 }
-
 
 .aside__item {
   display: flex;
@@ -64,9 +63,43 @@
   background-repeat: no-repeat;
 }
 
+.asside__item-icon {
+  background-image: url(../../assets/icons/discord.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .aside__item-link {
   font-weight: 400;
-font-size: 18px;
-text-align: center;
-color: #000;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+}
+
+.skills__group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+  }
+}
+
+.skills__group-list {
+  list-style: square;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+  }
 }
