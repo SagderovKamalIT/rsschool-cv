@@ -1,13 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+
+  background: #f5f5f5;
+
+  font-family: "Inter", Arial, sans-serif;
+
+  color: #202020;
+}
+
+/* =========================
+   PAGE
+========================= */
+
+.cv-container {
+  width: 210mm;
+
+  min-height: 297mm;
+
+  margin: 40px auto;
+
+  background: white;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+/* =========================
+   PROFILE HEADER
+========================= */
+
+.profile-block {
+  height: 210px;
+
+  background: #303b4d;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  padding-left: 300px;
+
+  color: white;
+}
+
+.profile-photo {
+  position: absolute;
+
+  left: 55px;
+
+  top: 35px;
+
+  width: 165px;
+
+  height: 165px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 6px solid white;
+}
+
+.profile-name {
+  margin: 0 0 12px;
+
+  font-size: 42px;
+
+  font-weight: 700;
+
+  letter-spacing: -1px;
+}
+
+.profile-title {
+  margin: 0;
+
+  font-size: 20px;
+
+  font-weight: 400;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.cv-sidebar {
+  position: absolute;
+
+  left: 0;
+
+  top: 210px;
+
+  width: 300px;
+
+  min-height: calc(100% - 210px);
+
+  background: #e7e7e7;
+
+  padding: 40px 30px;
+}
+
+.sidebar-section {
+  margin-bottom: 35px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+
+  font-weight: 600;
+
+  margin: 0 0 18px;
+
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid #777;
+}
+
+/* CONTACT */
+
+.contact-list {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  font-size: 12px;
+
+  margin-bottom: 14px;
+}
+
+.contact-list a {
+  color: #222;
+
+  text-decoration: none;
+}
+
+.icon {
+  width: 12px;
+
+  height: 12px;
+
+  border: 1.5px solid #333;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+/* SKILLS */
+
+.skill-group {
+  margin-bottom: 22px;
+}
+
+.skill-group h3 {
+  font-size: 13px;
+
+  margin: 0 0 10px;
+
+  font-weight: 700;
+}
+
+.skill-group ul {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.skill-group li {
+  font-size: 12px;
+
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #333333;
-  padding: 20px;
+
+  margin-bottom: 7px;
+}
+
+.skill-group li::before {
+  content: "✦";
+
+  font-size: 10px;
+
+  margin-right: 8px;
+}
+
+/* LANGUAGES */
+
+.language-list {
+  padding-left: 18px;
+}
+
+.language-list li {
+  font-size: 13px;
+
+  margin-bottom: 10px;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.cv-main {
+  margin-left: 300px;
+
+  padding: 35px 45px;
+
+  position: relative;
+}
+
+.main-section {
+  position: relative;
+
+  margin-bottom: 42px;
+}
+
+.section-title {
+  margin: 0 0 20px;
+
+  font-size: 28px;
+
+  font-weight: 600;
+
+  letter-spacing: -0.5px;
+}
+
+.about-text {
+  font-size: 13px;
+
+  line-height: 1.8;
+
+  margin: 0;
+}
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline-section::before {
+  content: "";
+
+  position: absolute;
+
+  left: -28px;
+
+  top: 55px;
+
+  width: 1px;
+
+  height: calc(100% - 40px);
+
+  background: #777;
+}
+
+.timeline-item {
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+
+  left: -38px;
+
+  top: 5px;
+
+  width: 18px;
+
+  height: 18px;
+
+  background: #303b4d;
+
+  border-radius: 50%;
+
+  border: 3px solid white;
+}
+
+.timeline-content {
+  padding-left: 0;
+}
+
+.timeline-header {
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+
+.job-title,
+.degree-title {
+  margin: 0;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.job-company {
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+.job-date {
+  font-size: 12px;
+
+  color: #555;
+}
+
+.job-responsibilities {
+  padding-left: 18px;
+
+  margin: 10px 0;
+}
+
+.job-responsibilities li {
+  font-size: 13px;
+
+  line-height: 1.7;
+
+  margin-bottom: 5px;
+}
+
+.project-stack {
+  font-size: 12px;
+}
+
+/* =========================
+   EDUCATION
+========================= */
+
+.education-additional {
+  margin-top: 20px;
+}
+
+.cert-list {
+  padding-left: 18px;
+}
+
+.cert-list li {
+  font-size: 13px;
+
+  margin-bottom: 8px;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+
+.projects-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.project-card {
+  border-bottom: 1px solid #ddd;
+
+  padding-bottom: 18px;
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+
+.project-card p {
+  margin: 0 0 10px;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+.project-card a {
+  font-size: 12px;
+
+  font-weight: 600;
+
+  color: #303b4d;
+
+  text-decoration: none;
+}
+
+/* =========================
+   PRINT
+========================= */
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .cv-container {
+    margin: 0;
+  }
 }

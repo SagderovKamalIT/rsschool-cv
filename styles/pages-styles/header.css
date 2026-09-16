@@ -1,0 +1,41 @@
+.header__section {
+  padding: 80px 190px 80px 164px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  background-color: #323b4c;
+  color: #fff;
+  position: relative;
+}
+
+.header__section-img {
+  position: absolute;
+  display: block;
+  background-image: url(../../assets/images/my-photo.svg);
+  width: 304px;
+  height: 304px;
+  background-size: cover;
+  top: 89px;
+  left: 93px;
+  background-position: center;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.header__text-name {
+  font-weight: 600;
+  font-size: 80px;
+  color: #fff;
+}
+
+.header__text-info {
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
