@@ -1,0 +1,72 @@
+.aside {
+  position: absolute;
+  left: 0;
+  top: 302px;
+  width: 489px;
+  background: #e4e4e4;
+  z-index: 1;
+}
+
+.aside__section {
+  padding: 154px 37px 42px 38px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.aside__header {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000;
+}
+
+.aside__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.aside__list-first {
+  width: 259px;
+  border-bottom: 1px solid #000000;
+  margin-top: 16px;
+}
+
+
+.aside__item {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.mail__item-icon {
+  background-image: url(../../assets/icons/mail.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.location__item-icon {
+  background-image: url(../../assets/icons/location.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.discord__item-icon {
+  background-image: url(../../assets/icons/discord.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.aside__item-link {
+  font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #000;
+}

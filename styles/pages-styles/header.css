@@ -18,6 +18,7 @@
   top: 89px;
   left: 93px;
   background-position: center;
+  z-index: 2;
 }
 
 .header__text {
