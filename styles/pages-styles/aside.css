@@ -39,6 +39,13 @@
   align-items: center;
 }
 
+.aside__item-social {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
 .mail__item-icon {
   background-image: url(../../assets/icons/mail.svg);
   width: 24px;
@@ -63,6 +70,22 @@
   background-repeat: no-repeat;
 }
 
+.linkedin__item-icon {
+  background-image: url(../../assets/icons/linkedin.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tg__item-icon {
+  background-image: url(../../assets/icons/telegram.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .asside__item-icon {
   background-image: url(../../assets/icons/discord.svg);
   width: 24px;
@@ -76,6 +99,7 @@
   font-size: 18px;
   text-align: center;
   color: #000;
+  text-decoration: none;
 }
 
 .skills__group {
