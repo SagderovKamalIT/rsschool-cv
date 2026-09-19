@@ -1,0 +1,119 @@
+.main {
+  position: absolute;
+  right: 0;
+  top: 302px;
+  left: 489px;
+  width: auto;
+  background: #fff;
+  z-index: 1;
+}
+
+.main__section {
+  padding: 68px 70px 45px 112px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.main__icons {
+  width: 50px;
+  height: 1641px;
+  border-left: 1px solid #000000;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  gap: 147px;
+}
+
+.main__text-about {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main__title {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000;
+}
+
+.main__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #121212;
+}
+
+.main__experience {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.main__experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.main__experience-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main__experience-title {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+
+  h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+  }
+}
+
+.main__data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.main__data-img {
+  background-image: url(../../assets/icons/mainSection/calendarsvg.svg);
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main__data-text,
+.main__project-stack,
+.main__job-company {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.main__job-company {
+ font-family: 'Inter-c', sans-serif;
+  font-weight: 400;
+
+}
+
+.main__experience-list {
+  list-style: square;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+

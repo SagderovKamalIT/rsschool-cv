@@ -1,180 +1,303 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/pages-styles/header.css" />
-    <link rel="stylesheet" href="./styles/pages-styles/aside.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header class="header__section">
-        <div class="header__section-img"></div>
 
-        <div class="header__text">
-          <h1 class="header__text-name">Kamal Sagderov</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/fonts.css" />
+  <link rel="stylesheet" href="./styles/pages-styles/header.css" />
+  <link rel="stylesheet" href="./styles/pages-styles/aside.css" />
+  <link rel="stylesheet" href="./styles/pages-styles/main-section.css" />
+</head>
 
-          <p class="header__text-info">Frontend-разработчик | React</p>
+<body>
+  <div class="container">
+    <header class="header__section">
+      <div class="header__section-img"></div>
+
+      <div class="header__text">
+        <h1 class="header__text-name">Kamal Sagderov</h1>
+
+        <p class="header__text-info">Frontend-разработчик | React</p>
+      </div>
+    </header>
+
+    <aside class="aside">
+      <section class="aside__section">
+        <div class="aside__conatcts">
+          <h2 class="aside__header">Контакты</h2>
+
+          <ul class="aside__list">
+            <li class="aside__list-first"></li>
+
+            <li class="aside__item">
+              <span class="tg__item-icon"> </span>
+
+              <a class="aside__item-link" href="https://t.me/kamal_sagderov" rel="noreferrer" target="_blank">
+                @kamal_sagderov
+              </a>
+            </li>
+
+            <li class="aside__item">
+              <span class="mail__item-icon"> </span>
+
+              <a class="aside__item-link" href="mailto:sagderovkamal.it@gmail.com" rel="noreferrer" target="_blank">
+                sagderovkamal.it@gmail.com
+              </a>
+            </li>
+
+            <li class="aside__item">
+              <span class="location__item-icon"> </span>
+
+              <a class="aside__item-link" href="https://yandex.ru/maps/213/moscow/" rel="noreferrer" target="_blank">
+                Russia, Moscow
+              </a>
+            </li>
+
+            <li class="aside__item">
+              <span class="discord__item-icon"> </span>
+
+              <a class="aside__item-link" href="https://discord.com/users/1391122640034332712" rel="noreferrer"
+                target="_blank">
+                @kamal_sagderov
+              </a>
+            </li>
+          </ul>
         </div>
-      </header>
 
-      <aside class="aside">
-        <section class="aside__section">
-          <div class="aside__conatcts">
-            <h2 class="aside__header">Контакты</h2>
+        <div class="aside__skills">
+          <h2 class="aside__header">Навыки и экспертиза</h2>
 
-            <ul class="aside__list">
-              <li class="aside__list-first"></li>
+          <ul class="aside__list">
+            <li class="aside__list-first"></li>
 
-                 <li class="aside__item">
-                <span class="tg__item-icon"> </span>
+            <div class="skills__group">
+              <h3>Frontend-разработка</h3>
 
-                <a
-                  class="aside__item-link"
-                  href="https://t.me/kamal_sagderov"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  @kamal_sagderov
-                </a>
-              </li>
+              <ol class="skills__group-list">
+                <li>React и React Router</li>
 
-              <li class="aside__item">
-                <span class="mail__item-icon"> </span>
+                <li>TypeScript и JavaScript ES6+</li>
 
-                <a
-                  class="aside__item-link"
-                  href="mailto:sagderovkamal.it@gmail.com"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  sagderovkamal.it@gmail.com
-                </a>
-              </li>
+                <li>TanStack Query</li>
 
-              <li class="aside__item">
-                <span class="location__item-icon"> </span>
+                <li>HTML5 и CSS3 (SCSS Modules)</li>
+              </ol>
+            </div>
 
-                <a
-                  class="aside__item-link"
-                  href="https://yandex.ru/maps/213/moscow/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Russia, Moscow
-                </a>
-              </li>
+            <div class="skills__group">
+              <h3>UI и дизайн интерфейсов</h3>
 
-              <li class="aside__item">
-                <span class="discord__item-icon"> </span>
+              <ol class="skills__group-list">
+                <li>Material UI</li>
 
-                <a
-                  class="aside__item-link"
-                  href="https://discord.com/users/1391122640034332712"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  @kamal_sagderov
-                </a>
-              </li>
-            </ul>
+                <li>Figma</li>
+
+                <li>BEM-методология</li>
+              </ol>
+            </div>
+
+            <div class="skills__group">
+              <h3>Инструменты</h3>
+
+              <ol class="skills__group-list">
+                <li>Git и GitHub</li>
+
+                <li>Figma</li>
+
+                <li>Vite, npm, Webpack</li>
+
+                <li>Docker и Bash</li>
+
+                <li>Claude Code и LLM-интеграции</li>
+              </ol>
+            </div>
+          </ul>
+        </div>
+
+        <div class="aside__language">
+          <h2 class="aside__header">Языки</h2>
+
+          <ul class="aside__list">
+            <li class="aside__list-first"></li>
+
+            <div class="skills__group">
+              <ol class="skills__group-list">
+                <li><strong>Русский:</strong> родной</li>
+
+                <li><strong>Английский:</strong> A2 (Elementary)</li>
+              </ol>
+            </div>
+          </ul>
+        </div>
+
+        <div class="aside__conatcts">
+          <h2 class="aside__header">Социальные сети</h2>
+
+          <ul class="aside__list">
+            <li class="aside__list-first"></li>
+
+            <li class="aside__item-social">
+              <span class="linkedin__item-icon"> </span>
+
+              <a class="aside__item-link" href="https://www.linkedin.com/in/kamal-sagderov-15845a340/" rel="noreferrer"
+                target="_blank">
+                Kamal Sagderov
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+
+    <main class="main">
+      <section class="main__section">
+        <div class="main__icons"></div>
+
+        <div class="main__text">
+          <div class="main__text-about">
+            <h2 class="main__title">О себе</h2>
+
+            <p class="main__paragraph">
+              Frontend-разработчик, специализирующийся на экосистеме React.
+              Разрабатываю современные веб-приложения с использованием React и
+              TypeScript, уделяя внимание архитектуре компонентов, качеству
+              кода и современным UI-решениям.
+            </p>
           </div>
 
-          <div class="aside__skills">
-            <h2 class="aside__header">Навыки и экспертиза</h2>
+          <div class="main__experience">
+            <h2 class="main__title">Опыт работы</h2>
 
-            <ul class="aside__list">
-              <li class="aside__list-first"></li>
+            <div class="main__experience-container">
+              <div class="main__experience-title">
 
-              <div class="skills__group">
-                <h3>Frontend-разработка</h3>
+                <div class="main__experience-name">
 
-                <ol class="skills__group-list">
-                  <li>React и React Router</li>
+                  <h3>Практикант-разработчик (Software Engineer)</h3>
 
-                  <li>TypeScript и JavaScript ES6+</li>
+                  <span class="main__job-company"> Сбер </span>
+                </div>
 
-                  <li>TanStack Query</li>
+                <div class="main__data">
+                  <span class="main__data-img"></span>
 
-                  <li>HTML5 и CSS3 (SCSS Modules)</li>
-                </ol>
+                  <p class="main__data-text">Июнь 2026 — Июль 2026</p>
+                </div>
               </div>
 
-              <div class="skills__group">
-                <h3>UI и дизайн интерфейсов</h3>
+              <ol class="main__experience-list">
+                <li>
+                  Разработал мультиагентную систему на базе Telegram-бота для
+                  автоматизации управления бизнес-встречами.
+                </li>
 
-                <ol class="skills__group-list">
-                  <li>Material UI</li>
+                <li>
+                  Перевёл приложение из демонстрационного режима в рабочую
+                  серверную инфраструктуру.
+                </li>
 
-                  <li>Figma</li>
+                <li>
+                  Реализовал пользовательские роли, согласование запросов и
+                  систему уведомлений.
+                </li>
+              </ol>
+
+              <p class="main__project-stack">
+                <strong> Стек: </strong>
+
+                React, TypeScript, Node.js, PostgreSQL, Docker, LLM
+              </p>
+            </div>
+
+            <div class="main__experience-container">
 
 
-                  <li>BEM-методология</li>
-                </ol>
+              <div class="main__experience-title">
+
+
+                <div class="main__experience-name">
+
+
+                  <h3>Frontend-разработчик</h3>
+
+                  <span class="main__job-company"> Freelance / Собственные проекты </span>
+                </div>
+
+                <div class="main__data">
+                  <span class="main__data-img"></span>
+
+                  <p class="main__data-text">Август 2025 — настоящее время</p>
+                </div>
               </div>
 
-              <div class="skills__group">
-                <h3>Инструменты</h3>
+              <ol class="main__experience-list">
+                <li>Разработка SPA-приложений и интерактивных лендингов.</li>
 
-                <ol class="skills__group-list">
-                  <li>Git и GitHub</li>
+                <li>
+                  Создание переиспользуемых компонентов, работа с состоянием и
+                  маршрутизацией.
+                </li>
+              </ol>
 
-                  <li>Figma</li>
+              <p class="main__project-stack">
+                <strong> Стек: </strong>
 
-                  <li>Vite, npm, Webpack</li>
+                React, TypeScript, JavaScript, HTML/CSS, Docker, LLM
+              </p>
+            </div>
 
-                  <li>Docker и Bash</li>
+            <div class="main__experience-container">
 
-                  <li>Claude Code и LLM-интеграции</li>
-                </ol>
+
+              <div class="main__experience-title">
+
+                <div class="main__experience-name">
+
+                  <h3>Практикатн Frontend-разработчик</h3>
+
+                  <span class="main__job-company"> РУДН ВШУ </span>
+                </div>
+
+                <div class="main__data">
+                  <span class="main__data-img"></span>
+
+                  <p class="main__data-text">Июнь 2025 — Июль 2025 </p>
+                </div>
               </div>
-            </ul>
+
+              <ol class="main__experience-list">
+                <li>Разработка адаптивных интерфейсов по макетам Figma.</li>
+
+                <li>Реализация интерактивности с помощью JavaScript.</li>
+              </ol>
+
+              <p class="main__project-stack">
+                <strong> Стек: </strong>
+
+                JavaScript, HTML/CSS, Git/GitHub, Figma
+              </p>
+            </div>
           </div>
 
-          <div class="aside__language">
-            <h2 class="aside__header">Языки</h2>
 
-            <ul class="aside__list">
-              <li class="aside__list-first"></li>
 
-              <div class="skills__group">
-                <ol class="skills__group-list">
-                  <li><strong>Русский:</strong> родной</li>
 
-                  <li><strong>Английский:</strong> A2 (Elementary)</li>
-                </ol>
-              </div>
-            </ul>
-          </div>
+        </div>
 
-          <div class="aside__conatcts">
-            <h2 class="aside__header">Социальные сети</h2>
 
-            <ul class="aside__list">
-              <li class="aside__list-first"></li>
 
-              <li class="aside__item-social">
-                <span class="linkedin__item-icon"> </span>
 
-                <a
-                  class="aside__item-link"
-                  href="https://www.linkedin.com/in/kamal-sagderov-15845a340/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Kamal Sagderov
-                </a>
-              </li>
 
-             
-            </ul>
-          </div>
-        </section>
-      </aside>
-    </div>
-  </body>
+
+  </div>
+  </div>
+  </section>
+  </main>
+  </div>
+</body>
+
 </html>
