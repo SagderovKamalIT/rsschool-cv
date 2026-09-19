@@ -28,7 +28,8 @@
 }
 
 .main__text-about,
-.main__education {
+.main__education,
+.main__projects {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -135,6 +136,13 @@
   gap: 12px;
 }
 
+.main__projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
 .main__education-name {
   font-weight: 600;
   font-size: 18px;
@@ -146,4 +154,12 @@
   font-size: 16px;
   line-height: 200%;
   color: #121212;
+}
+
+.main__education-link {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
 }
