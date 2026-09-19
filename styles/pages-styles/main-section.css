@@ -24,10 +24,11 @@
 .main__text {
   display: flex;
   flex-direction: column;
-  gap: 147px;
+  gap: 90px;
 }
 
-.main__text-about {
+.main__text-about,
+.main__education {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -44,6 +45,12 @@
   font-size: 16px;
   line-height: 200%;
   color: #121212;
+}
+
+.main__journey {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .main__experience {
@@ -103,9 +110,8 @@
 }
 
 .main__job-company {
- font-family: 'Inter-c', sans-serif;
+  font-family: "Inter-c", sans-serif;
   font-weight: 400;
-
 }
 
 .main__experience-list {
@@ -114,6 +120,30 @@
   display: flex;
   flex-direction: column;
   gap: 17px;
+
+  li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #121212;
+  }
 }
 
+.main__education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.main__education-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.main__education-company {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #121212;
+}
