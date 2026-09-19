@@ -8,7 +8,8 @@
 }
 
 .aside__section {
-  padding: 154px 37px 42px 38px;
+  padding: 154px 37px 270
+  px 38px;
   display: flex;
   flex-direction: column;
   gap: 32px;
